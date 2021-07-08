@@ -1,0 +1,150 @@
+body{
+
+width: 100%;
+padding: 0%;
+margin: 0%;
+}
+
+header{
+width: 100%;
+background-color: rgb(191, 203, 216);
+height: 150px;
+
+}
+
+
+
+
+header h1{
+
+color: rgb(92, 85, 85);
+text-align: center;
+padding: 0.9em;
+margin: 0%;
+font-size: 3em;
+font-family: 'Zen Loop', cursive;
+text-shadow: 0 0 2px rgb(250, 253, 255),
+0 0 5px white,
+0 0 7px rgb(248, 241, 241);
+}
+
+header span{
+
+font-size: 0.42em;
+font-weight: 300;
+color: rgb(59, 167, 194);
+font-family: sans-serif;
+}
+
+
+
+
+
+main{
+width: 100%;
+background-color: rgba(195, 214, 236, 0.568);
+height: 780px; 
+}
+
+
+main a{
+
+border: 2px solid rgb(167, 166, 164);
+text-align: center;
+text-decoration: none;
+margin: 0.8em;
+padding: 2px 5px 1px 1px;
+transition: 0.2s ease-out;
+}
+
+main a:hover{
+
+opacity: 0.5;
+background-color: rgb(160, 223, 241);
+border: 1px solid rgb(75, 93, 99);
+}
+
+main h1{
+
+font-size: 1.2em;
+font-family: 'Raleway', sans-serif;
+margin: 0;
+padding: 4em 5em 0em 5em;
+}
+
+.maintva{
+
+font-size: 1.2em;
+}
+
+
+
+
+img{
+
+padding: 4em 10em;
+width: 50em;
+}
+
+main p{
+
+font-size: 1.2em;
+font-family: 'Open Sans Condensed', sans-serif;
+margin: 0;
+padding: 1em 8em;
+}
+
+@media screen and (max-width: 1024px){
+    main { 
+        font-size: 0.8em;
+}
+}
+
+@media screen and (max-width: 768px){
+    main { 
+        font-size: 0.7em;
+}
+}
+
+@media screen and (max-width: 480px){
+    main { 
+    font-size: 0.7em;
+}
+}
+
+
+main #pett{
+
+color: rgb(207, 63, 63);
+margin-top: 1em;
+}
+
+
+main #ptva{
+
+color: rgb(73, 153, 73);  
+}
+
+
+main #ptre{
+
+color: blue;
+}
+
+
+footer{
+width: 100%;
+background-color: rgb(191, 203, 216);
+height: 90px;
+}
+
+footer h1{
+
+font-size: 1em;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+padding: 0%;
+margin: 0%;
+padding-top: 2.3em;
+}
+
