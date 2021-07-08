@@ -47,39 +47,7 @@ height: 780px;
 }
 
 
-main a{
 
-
-text-align: center;
-text-decoration: none;
-margin: 0.8em;
-padding: 2px 5px 1px 1px;
-transition: 0.2s ease-out;
-}
-
-main a:hover{
-
-opacity: 0.5;
-background-color: rgb(187, 209, 216);
-border: 1px solid rgb(75, 93, 99);
-}
-
-
-#linkett{
-    color: rgb(207, 63, 63);
-    border: 2px solid rgb(196, 84, 40);
-}
-
-#linktva{
-    color: rgb(73, 153, 73);
-    border: 2px solid rgb(121, 180, 103);
-}
-
-
-#linktre{
-color: blue;
-border: 2px solid rgb(118, 147, 211);
-}
 
 
 main h1{
@@ -109,7 +77,7 @@ main p{
 font-size: 1.2em;
 font-family: 'Open Sans Condensed', sans-serif;
 margin: 0;
-padding: 1em 8em;
+padding: 0.5em 9em;
 }
 
 @media screen and (max-width: 1024px){
@@ -150,6 +118,54 @@ color: blue;
 }
 
 
+
+main a{
+
+
+    text-align: center;
+    text-decoration: none;
+    margin: 0.8em;
+    padding: 2px 5px 1px 1px;
+    transition: 0.2s ease-in;
+    }
+    
+    main a:hover{
+    
+    opacity: 0.5;
+    background-color: rgb(187, 209, 216);
+    
+    }
+    
+    
+    #linkett{
+    
+    color: rgb(207, 63, 63);
+    border: 2px solid rgb(196, 84, 40);
+    }
+    
+    #linktva{
+    
+    color: rgb(73, 153, 73);
+    border: 2px solid rgb(121, 180, 103);
+    }
+    
+    
+    #linktre{
+        
+    color: blue;
+    border: 2px solid rgb(118, 147, 211);
+    }
+
+
+
+
+
+
+
+
+
+
+
 footer{
 width: 100%;
 background-color: rgb(191, 203, 216);
@@ -164,5 +180,15 @@ text-align: center;
 padding: 0%;
 margin: 0%;
 padding-top: 2.3em;
+transition: 0.2s ease-in;
+
+}
+
+footer h1:hover{
+
+color: white;
+font-weight: 600;
+transform: scale(0.80);
+
 }
 
