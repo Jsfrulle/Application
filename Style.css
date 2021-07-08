@@ -9,8 +9,68 @@ header{
 width: 100%;
 background-color: rgb(191, 203, 216);
 height: 150px;
+}
+
+nav{
+position: fixed;
+display: flex;
+align-items: center;
+height: 2em;
+background-color: rgba(49, 63, 94, 0.466);
+width: 100%;
+
 
 }
+
+.loganav{
+padding: 0.6em;
+color: rgb(228, 228, 228);
+font-family: 'Raleway', sans-serif;
+font-weight: 600;
+
+}
+
+.navtext{
+
+text-align: end;
+width: 100%;
+}
+
+
+.navtext #info{
+    font-size: 0.7em;
+    color: rgb(228, 228, 228);
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+
+
+.navtext a{
+font-size: 0.9em;
+padding: 0.5em;
+text-decoration: none;
+color: rgb(228, 228, 228);
+transition: 0.3s ease-in;
+font-family: 'Raleway', sans-serif;
+font-weight: 600;
+}
+
+.navtext a:hover{
+
+color: rgb(165, 165, 165);
+
+
+}
+
+
+@media screen and (max-width: 580px){
+    .navtext{ 
+    font-size: 0.6em;
+}
+}
+
 
 
 
