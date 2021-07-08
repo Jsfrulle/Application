@@ -49,7 +49,7 @@ height: 780px;
 
 main a{
 
-border: 2px solid rgb(167, 166, 164);
+
 text-align: center;
 text-decoration: none;
 margin: 0.8em;
@@ -60,9 +60,27 @@ transition: 0.2s ease-out;
 main a:hover{
 
 opacity: 0.5;
-background-color: rgb(160, 223, 241);
+background-color: rgb(187, 209, 216);
 border: 1px solid rgb(75, 93, 99);
 }
+
+
+#linkett{
+    color: rgb(207, 63, 63);
+    border: 2px solid rgb(196, 84, 40);
+}
+
+#linktva{
+    color: rgb(73, 153, 73);
+    border: 2px solid rgb(121, 180, 103);
+}
+
+
+#linktre{
+color: blue;
+border: 2px solid rgb(118, 147, 211);
+}
+
 
 main h1{
 
